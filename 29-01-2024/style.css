@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F7F4;
+    display: flex;
+    justify-content: center;
+}
+
+.main .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main .left {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.main .nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.main .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left .design {
+    display: flex;
+    gap: 10px;
+}
+
+.left .side1 {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.right .search {
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+@media only screen and (min-width:1015px) {
+    .left i {
+        display: none;
+    }
+
+    .right span {
+
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1015px) {
+    .left i {
+        display: block;
+    }
+
+    .right span {
+
+        display: block;
+    }
+
+    .right .search {
+        display: none;
+    }
+
+    .left .side1 {
+        display: none;
+    }
+}
